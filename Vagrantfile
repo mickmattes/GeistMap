@@ -32,7 +32,7 @@ Vagrant.configure(2) do |config|
     # webpack reloading
     config.vm.network "forwarded_port", guest: 3001, host: 3001
     # express
-    config.vm.network "forwarded_port", guest: 3000, host: 3000
+    config.vm.network "forwarded_port", guest: 3002, host: 3002
     # elasticsearch
     config.vm.network "forwarded_port", guest: 9200, host: 9200
     # neo4j REST
